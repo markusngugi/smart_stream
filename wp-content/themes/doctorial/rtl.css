@@ -1,0 +1,676 @@
+/*
+* RTL 
+*/
+
+  .widget ul li:before, .widget ul li:after {	
+    content: "\f104";
+}
+
+.nav-previous a:before, .nav-previous a:after, .nav-next a:before, .nav-next a:after {
+    content: '\f105';
+    right: 17px;
+    left: auto;
+}
+.nav-next a:before, .nav-next a:after {
+    content: '\f104';
+    left: 17px;
+    right: auto;
+}
+.service-content-wrap h4:before, .service-content-wrap h4:after {
+    content: "\f104";
+    right: 15px;
+    left: auto;
+}
+.ft-arrow:before, .ft-arrow:after {    
+	content: "\f104";
+    left: 25px;
+    right: auto;
+}
+
+tfoot #prev, tfoot #next {
+    text-align:right;
+}
+
+tfoot #next {
+    text-align:left;
+}
+
+ul,ol {
+    margin:0 3em 1.5em 0;
+}
+
+li > ul,li > ol {
+    margin-right:1.5em;
+    margin-left:0;
+}
+
+.comment-navigation .nav-previous,.posts-navigation .nav-previous,.post-navigation .nav-previous {
+    float:right;
+}
+
+.comment-navigation .nav-next,.posts-navigation .nav-next,.post-navigation .nav-next {
+    float:left;
+    text-align:left;
+}
+
+.nav-links .nav-previous > a, .nav-links .nav-next > a {
+    padding:10px 30px 10px 20px;
+}
+
+.nav-links .nav-next > a {
+    padding:10px 20px 10px 30px;
+}
+
+.screen-reader-text:focus {
+    right:5px;
+    left:auto;
+}
+
+.alignleft {
+    float:right;
+    margin-left:1.5em;
+    margin-right:0;
+}
+
+.alignright {
+    float:left;
+    margin-right:1.5em;
+    margin-left:0;
+}
+
+.aligncenter {
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.widget ul li {
+    padding-right:10px;
+    padding-left:0;
+}
+
+.widget .widget-title:after {
+    right:0;
+    left:auto;
+}
+
+.widget ul {
+    padding-right:0;
+    padding-left:0;
+}
+
+.widget .ft-search-wrap label {
+    float:right;
+}
+
+.widget .ft-search-wrap .search-submit {
+    float:right;
+}
+
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    float:right;
+    margin-left:10px;
+    margin-right:0;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove, .woocommerce.widget_shopping_cart .cart_list li a.remove {
+    right:auto;
+    left:0;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li, .woocommerce.widget_shopping_cart .cart_list li {
+    padding-left:2em;
+    padding-right:0;
+}
+
+.widget ul li:hover {
+    padding-right:15px;
+    padding-left:0;
+}
+
+.widget ul li:before, .widget ul li:after {
+    right:0;
+    left:auto;
+}
+
+.widget ul li:hover:after {
+    right:6px;
+    left:auto;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.gallery-item {
+    padding:0 0 10px 10px;
+}
+
+.comments-title {
+    margin:0px 0 15px 0;
+}
+
+.comments-area ol.children {
+    margin-right:20px;
+    margin-left:0;
+}
+
+.comment-awaiting-moderation {
+    left:0;
+    right:auto;
+}
+
+#go-to-top {
+    left:10px;
+    right:auto;
+}
+#slider .bx-wrapper {
+	overflow: hidden;
+}
+.slide .caption-wrapper {
+    text-align: right;
+    margin: 0 0 0 auto;
+}
+
+.top-header-text i, .top-header-text p {
+    padding-left:10px;
+    padding-right:0;
+}
+
+.top-header .social-icons {
+    text-align:left;
+}
+
+.site-branding {
+    float:right;
+}
+
+.contact-details {
+    float:left;
+}
+
+.contact-number, .contact-address {
+    padding-right:30px;
+    padding-left:0;
+}
+
+.contact-details .contact-number-title {
+    padding-right:15px;
+    padding-left:0;
+}
+
+#masthead .menu li {
+    float:right;
+}
+
+#masthead.fixed .sticky-wrapper {
+    right:auto;
+    left:0;
+}
+
+#masthead .menu .sub-menu, #masthead .menu .children {
+    right:0;
+    left:auto;
+    text-align:right;
+}
+
+#masthead .menu li:last-child > ul.sub-menu li ul.sub-menu, #masthead .menu li:last-child > ul.children li ul.children {
+    right:auto;
+    left:100%;
+}
+
+#masthead .menu li:nth-last-child(2) > ul.sub-menu li ul.sub-menu, #masthead .menu li:nth-last-child(2) > ul.children li ul.children {
+    right:auto;
+    left:100%;
+}
+
+#masthead .menu li > ul.sub-menu li ul.sub-menu, #masthead .menu li > ul.sub-menu li ul.children {
+    right:100%;
+    left:auto;
+}
+
+#masthead .menu li.menu-item-has-children > a,#masthead .menu li.page-item-has-children > a {
+    padding-left:30px;
+}
+
+#masthead .menu li.menu-item-has-children i,#masthead .menu li.page-item-has-children i {
+    left:10px;
+    right:auto;
+}
+
+#masthead .ft-search-wrap .search-icon {
+    margin-right:10px;
+    margin-left:0;
+}
+
+#masthead .ft-search-wrap .fa {
+    right:auto;
+    left:0;
+}
+
+#masthead .show .ft-search {
+    right:auto;
+    left:0;
+}
+
+.featured-content-img {
+    float:right;
+}
+
+.featured-content-img .featured-post-title {
+    padding-right:5px;
+    padding-left:0;
+}
+
+.about-content-img {
+    padding-right:20px;
+    padding-left:0;
+}
+
+.about-content-img:nth-child(3n) {
+    padding-left:0;
+    padding-right:0;
+}
+
+.about-content-img figure {
+    margin-left:20px;
+    margin-right:0;
+}
+
+.service-content-img {
+    float:right;
+    padding:0 10px 0 40px;
+}
+
+.service-content-img .service-content-wrap {
+    left:17%;
+    right:auto;
+}
+
+.service-content-img .service-content-wrap:hover h4 a {
+    padding-right:35px;
+    padding-left:0;
+}
+
+.team-content-img {
+    float:right;
+}
+
+
+.team-content-wrap .readmore {
+    right:0;
+    left:auto;
+}
+
+
+.blog-section .blog-content-img {
+    float:right;
+}
+
+.blog-date {
+    right:0;
+    left:auto;
+}
+
+.blog-footer-right {
+    float:left;
+}
+
+.testimonial-section .testimonial-slider li {
+    text-align:right;
+}
+
+.testimonial-section .testimonial-content:after {
+    border-right:15px solid transparent;
+    border-left:15px solid transparent;
+}
+
+.contact-section .ufbl-front-form .ufbl-form-field-wrap:first-of-type, .contact-section .ufbl-form-field-wrap.submit-class, .contact-section .ufbl-front-form .ufbl-form-field-wrap.message-class {
+    margin-right:1.2% !important;
+    margin-left:0;
+}
+
+.contact-image {
+    left:0;
+    right:auto;
+}
+
+
+#primary {
+    float:right;
+}
+
+#secondary {
+    float:right;
+    padding-right:40px;
+    padding-left:0;
+}
+
+.nav-previous a:before, .nav-previous a:after, .nav-next a:before, .nav-next a:after {
+    right:17px;
+    left:auto;
+}
+
+.nav-next a:before, .nav-next a:after {
+    left:17px;
+    right:auto;
+}
+
+.nav-links .nav-previous a:hover:after {
+    right:10px;
+    left:auto;
+}
+
+.nav-links .nav-next a:hover:after {
+    left:10px;
+    right:auto;
+}
+
+.archive-date {
+    right:0;
+    left:auto;
+}
+
+.entry-post-cat {
+    float:left;
+}
+
+.archive-footer-right {
+    float:left;
+}
+
+.entry-post-cat:before, .entry-post-user a:before {
+    margin-left:5px;
+}
+
+.testimonial-page .testimonial-content-wrap {
+    float:right;
+    margin-left:3%;
+    margin-right:0;
+}
+
+.testimonial-page .testimonial-content-wrap:nth-child(2n) {
+    margin-left:0;
+    margin-right:0;
+}
+
+.testimonial-content-wrap p {
+    padding:5px 45px 20px 0px;
+    text-align:right;
+}
+
+.testimonial-page .testimonial-content:after {
+    float:right;
+    border-right:15px solid transparent;
+    border-left:15px solid transparent;
+}
+
+.testimonial-page header .testimonial-title-wrap {
+    margin-right:10px;
+    margin-left:0;
+}
+
+.team-page-content {
+    margin-left:1.2%;
+    margin-right:0;
+    float:right;
+}
+
+.team-page-content:nth-child(3n) {
+    margin-left:0;
+    margin-right:0;
+}
+
+.team-content-wrap .ft-readmore {
+    right:0;
+    left:auto;
+}
+
+
+.service-page-content {
+    float:right;
+    margin-left:1.2%;
+    margin-right:0;
+}
+
+.service-page-content:nth-child(2n) {
+    margin-left:0;
+    margin-right:0;
+}
+
+.service-page-content .service-content-wrap {
+    left:13%;
+    right:auto;
+}
+
+.service-page-content .service-content-wrap:hover h4 {
+    padding-right:35px;
+    padding-left:0;
+}
+
+.service-content-wrap h4:before, .service-content-wrap h4:after {
+    right:15px;
+    left:auto;
+}
+
+.service-content-wrap h4:hover:after {
+    right:22px;
+    left:auto;
+}
+
+.ufbl-front-form .ufbl-form-field-wrap {
+    float:right;
+    margin-right:1.2%;
+    margin-left:0;
+}
+
+.ufbl-front-form .ufbl-form-field-wrap:first-of-type,.ufbl-form-field-wrap.submit-class {
+    margin-right:0;
+    margin-left:0;
+}
+
+.ufbl-front-form .ufbl-form-field-wrap.message-class {
+    margin-right:0;
+    margin-left:0;
+}
+
+.search .no-results .page-content .ft-search-wrap label {
+    float:right;
+}
+
+.search .no-results .page-content .ft-search-wrap .search-submit {
+    float:right;
+}
+
+.footer-block {
+    padding:30px 0 30px 30px;
+}
+
+.woocommerce ul.products li.product:nth-child(3n), .woocommerce-page ul.products li.product:nth-child(3n) {
+    margin-left:0;
+    margin-right:0;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    margin-left:4.2%;
+    margin-right:0;
+}
+
+a.button.yith-wcqv-button {
+    left:0;
+    right:auto;
+}
+
+.whislist-quickview .yith-wcqv-button:before {
+    left:0;
+    right:auto;
+}
+
+.widget.woocommerce ul li:hover {
+    padding-right:0;
+    padding-left:0;
+}
+
+.widget.widget_product_search .search-field {
+    float:right;
+}
+
+.entry-footer span, .entry-meta span {
+    margin-left:5px;
+    margin-right:0;
+}
+
+blockquote, q {
+    margin-right:40px;
+    margin-left:0;
+}
+
+blockquote:before, q:before {
+    right:-35px;
+    left:auto;
+}
+
+
+a.ft-arrow {
+    padding-left:35px;
+}
+#go-to-top.ft-arrow {
+    padding-left: 0;
+}
+
+.ft-arrow:before, .ft-arrow:after {
+    left:25px;
+    right:auto;
+}
+.ft-arrow:hover:after {
+    left:20px;
+    right:auto;
+}
+
+#go-to-top.ft-arrow:before,#go-to-top.ft-arrow:after {
+    right:0px;
+}
+
+.bx-wrapper {
+  direction: ltr;
+}
+.testimonial-section figure img {
+    margin-left: auto;
+}
+.testimonial-section .testimonial-content:after{
+	right: 20px;
+}
+
+/* Responsive*/
+
+@media screen and (max-width:1220px)  {
+    .about-content-img figure {
+        margin-left:15px;
+        margin-right:0;
+    }
+
+}
+@media screen and (max-width:1170px)  {
+    .about-content-img figure {
+        margin-left:5px;
+        margin-right:0;
+    }
+
+}
+@media screen and (max-width:980px)  {
+    .menu-search {
+        float:left;
+    }
+	.main-navigation ul, .main-navigation .menu {
+	    transform: translate(100%);
+	    -webkit-transform: translate(100%);
+	    -moz-transform: translate(100%);
+	}
+    #masthead .ft-search-wrap.show .search-icon {
+        border-bottom-right-radius:0px;
+        border-bottom-left-radius:0;
+    }
+
+    .main-navigation .menu {
+        right:0;
+        left:auto;
+    }
+
+    .main-navigation li {
+        text-align:right;
+    }
+
+    #masthead .show .ft-search {
+        right:-236px;
+        left:auto;
+    }
+
+}
+@media screen and (max-width:800px)  {
+    .contact-number, .contact-address {
+        padding-right:10px;
+        padding-left:0;
+    }
+
+    .contact-details p {
+        padding-right:5px;
+        padding-left:0;
+    }
+
+    #secondary {
+        padding-right:0;
+        padding-left:0;
+    }
+
+}
+@media screen and (max-width:782px)  {
+    .about-content-img figure {
+        margin-left:5px;
+        margin-right:0;
+    }
+
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+        margin-left:1.2%;
+        margin-right:0;
+    }
+
+    .woocommerce ul.products li.product:nth-child(3n), .woocommerce-page ul.products li.product:nth-child(3n) {
+        margin-left:1.2%;
+        margin-right:0;
+    }
+
+    .woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n) {
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .team-page-content:nth-child(2n) {
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .team-page-content:nth-child(3n) {
+        margin-left:1.2%;
+        margin-right:0;
+    }
+
+}
+@media screen and (max-width:640px)  {
+    .toggled .toggle-btn {
+        right:19px;
+        left:auto;
+    }
+
+    .contact-section .contact-form {
+        padding-left:10px;
+        padding-right:0;
+    }
+
+}
+@media screen and (max-width:540px)  {
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+        margin-left:1.2%;
+        margin-right:0;
+    }
+
+}
